@@ -26,7 +26,7 @@ The default request body template is below.
 	"EventType": "{{ .Type }}",
 	"EventKind": "{{ .InvolvedObject.Kind }}"
 	"EventReason": "{{ .Reason }}",
-	"EventTime": "{{ .EventTime }}",
+	"EventTime": "{{ .LastTimestamp }}",
 	"EventMessage": "{{ .Message }}"
 }
 ```
